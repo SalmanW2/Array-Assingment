@@ -34,7 +34,6 @@ let products:Product[] = [{
 function changeColor(product:Product ,newColor:string){    
     if (product.inventory.colorOptions.indexOf(newColor) !== -1){
         console.log(`${newColor} is already mensioned you can puchase in same price $${product.price}.`);
-        console.log('sffg');
     }
     else {
         switch(newColor){
